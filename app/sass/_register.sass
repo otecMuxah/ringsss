@@ -1,0 +1,240 @@
+html, body
+	height: 100%
+.wrapper
+	display: table
+	height: 100%
+	width: 100%
+.content
+	display: table-row
+	height: 100%
+//.head
+//	background-color: #000
+.background-img
+	background-image: linear-gradient(193deg, #172b68 0%, #000000 90%)
+	//background-image: -webkit-linear-gradient(257deg,#172b68 0,#000 60%)
+	//background-image: linear-gradient(193deg,#172b68 0,#000 60%)
+	//background-position: 0px -450px
+	//background-repeat: no-repeat
+.register-form
+	margin: 0 auto
+	margin-top: 30px
+	max-width: 340px
+	input
+		outline: none
+		&:focus
+			box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.15)
+.dark-input
+	height: 47px
+	width: 100%
+	margin: 10px 0
+	padding: 0 20px
+	font-size: 16px
+	border: 1px solid rgba(255, 255, 255, 0.15)
+	border-radius: 25px
+	background-color: transparent
+	color: rgba(255, 255, 255, 0.15)
+	outline: none
+	&:focus
+		border: 1px solid rgba(255, 255, 255, 0.55)
+		color: #fff
+.dark-input:focus::-moz-placeholder
+	color: #fff
+.dark-input:focus::-webkit-input-placeholder
+	color: #fff
+.checkbox
+	padding: 5px 20px
+	color: #fff
+	span
+		opacity: 0.6
+	input
+		color: #fff
+.button-input
+	height: 47px
+	width: 100%
+	margin: 10px 0
+	padding: 0 20px
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 500
+	border: none
+	border-radius: 25px
+	background-color: #373940
+	color: #fff
+	outline: none
+	&:hover
+		background-color: #4D4F5B
+	&:focus
+		background-color: #666978
+	&:active
+		background-color: #25262b
+input[type="radio"] 
+    opacity: 0
+
+input[type="radio"] + label 
+    position: relative
+    margin-left: 12px
+
+input[type="radio"] + label:before
+	content: ''
+	position: absolute
+	top: -2px
+	left: -28px
+	width: 18px
+	height: 18px
+	border: 1px solid rgba(255, 255, 255, 0.15)
+	border-radius: 50%
+input[type="radio"]:checked + label:before
+	background-color: #2f3c8d
+	border: 1px solid transparent
+input[type="radio"]:checked + label:after
+	content: ''
+	position: absolute
+	top: 5px
+	left: -21px
+	width: 4px
+	height: 4px
+	border-radius: 50%
+	background-color: #fff
+input[type="radio"]:hover + label:before
+	border: 1px solid #fff
+	transition: border .3s
+input[type="radio"]:checked:hover + label:before
+	border: 1px solid rgba(255, 255, 255, 0.15)
+	transition: border .5s
+
+input[type="checkbox"]
+	opacity: 0
+
+input[type="checkbox"] + label
+	position: relative
+	margin-left: 29px
+	color: #a3a3a3
+
+input[type="checkbox"] + label:before
+	content: ''
+	position: absolute
+	top: -2px
+	left: -28px
+	width: 18px
+	height: 18px
+	border: solid 1px rgba(255, 255, 255, 0.15)
+	border-radius: 3px
+	
+input[type="checkbox"]:checked + label:before
+	background-color: #2f3c8d
+	border: 1px solid transparent
+
+input[type="checkbox"]:checked + label:after
+	content: ''
+	position: absolute
+	top: -2px
+	left: -28px
+	width: 18px
+	height: 18px
+	background-image: url(../img/shape.png)
+	background-repeat: no-repeat
+	background-position: center center
+
+input[type="checkbox"] + label:hover:before
+	border: 1px solid #fff
+	transition: border .3s
+
+input[type="checkbox"]:checked:hover + label:before
+	border: 1px solid rgba(255, 255, 255, 0.15)
+	transition: border .5s
+
+
+.rings.head
+	background-color: #000
+	.background-img
+		background-image: -webkit-linear-gradient(257deg,#172b68 0,#000 60%)
+		background-image: linear-gradient(193deg,#172b68 0,#000 60%)
+		background-position: 0px -450px
+		background-repeat: no-repeat
+.head.bgi
+	background-image: -webkit-linear-gradient(257deg,#172b68 0,#000 60%)
+	background-image: linear-gradient(193deg,#172b68 0,#000 60%)
+	background-repeat: no-repeat
+.wrapper
+	background-color: #000
+.background-img
+	background-position: 0px -700px
+	background-repeat: no-repeat
+
+.category,
+.faq
+	.background-img
+		background-position: 0px -500px
+.delivery
+	.background-img
+		background-position: 0px -150px
+.terms
+	.background-img
+		background-position: 0px -600px
+.contact-info,
+.my-orders,
+.contact-us,
+.order-inner,
+.review,
+.register,
+.shopping-bag
+	.background-img
+		background-position: 0px -200px
+.payment
+	.background-img
+		background-position: 0px -150px
+
+//@media only screen and (max-width : 1199px)
+	//.rings.head
+	//	.background-img
+	//		background-image: -webkit-linear-gradient(257deg,#172b68 0,#000 60%)
+	//		background-image: linear-gradient(193deg,#172b68 0,#000 60%)
+	//		background-position: 0px -150px
+	//		background-repeat: no-repeat
+
+@media only screen and (max-width : 950px)
+  .background-img
+    background-position: 50% 0
+  .card-page
+	  .background-img
+		  background-position: 50% 50%
+
+@media only screen and (max-width : 900px)
+	.register
+		p
+			max-width: 522px
+			margin-top: 30px
+			text-align: left
+@media only screen and (max-width : 765px)
+	.review,
+	.delivery
+		.background-img
+			background-position: 0px -500px
+	.faq,
+	.rings,
+	.card,
+	.aboutUs
+		.background-img
+			background-position: 0px -1050px
+			background-repeat: no-repeat
+	.category
+		.background-img
+			background-position: 0 -900px
+
+@media only screen and (max-width : 420px)
+	.main.register
+		padding: 0
+	.register
+		.header-wrap
+			padding: 11px 0
+			padding-left: 15px
+			background-color: #0f1526
+	.register
+		.header-wrap
+			h1
+				margin: 0
+				text-align: left
+				font-size: 18px
+		.header-wrap+p
+			margin-top: 60px
+			text-align: left

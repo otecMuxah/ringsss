@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Title</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body><div class="wrapper my-orders">
+    <div class="content background-img">
+        <div class="page-preloader">
+            <span class="spinner"></span>
+        </div>
+        <section class="head">
+            <header class="header dark-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 col-lg-push-5 col-md-8 col-md-push-4 col-sm-8 col-sm-push-4 col-xs-2">
+                            <div class="container-links">
+                                <ul class="main-categories">
+                                    <li><a href="#">Rings</a></li>
+                                    <li><a href="#">Earrings</a></li>
+                                    <li><a href="#">Pendants</a></li>
+                                </ul>
+                                <!--<div class="account-wrapper">-->
+                                    <!--<span class="login" id="login" href="">Sign in <span>or Create account</span></span>-->
+                                    <!--<div id="login-popup" class="login-popup">-->
+                                        <!--<div id="login-close" class="login-close">-->
+                                            <!--<span></span>-->
+                                            <!--<span></span>-->
+                                        <!--</div>-->
+                                        <!--<p>Log in width</p>-->
+                                        <!--<a class="facebook" href="#"></a>-->
+                                        <!--<a class="google" href="#"></a>-->
+                                        <!--<p>or with your email address</p>-->
+                                        <!--<form action="#">-->
+                                            <!--<div class="input-wrap">-->
+                                                <!--<input id="email"-->
+                                                       <!--name="email"-->
+                                                       <!--class="dark-input"-->
+                                                       <!--type="email"-->
+                                                       <!--placeholder="Email"-->
+                                                       <!--data-rule-email="true"-->
+                                                       <!--data-msg-email="Username or Password is incorrect"-->
+                                                <!--&gt;-->
+                                            <!--</div>-->
+                                            <!--<div class="input-wrap">-->
+                                                <!--<input id="password"-->
+                                                       <!--name="password"-->
+                                                       <!--class="dark-input"-->
+                                                       <!--type="password"-->
+                                                       <!--placeholder="Password"-->
+                                                       <!--data-rule-required="true"-->
+                                                       <!--data-msg-required="Required error text"-->
+                                                <!--&gt;-->
+                                            <!--</div>-->
+                                            <!--<div class="checkbox-wrap">-->
+                                                <!--<input type="checkbox" name="checkbox1" class="checkbox1" id="checkbox1">-->
+                                                <!--<label for="checkbox1">Remember me</label>-->
+                                            <!--</div>-->
+                                            <!--<input type="submit" class="button-input extra-small-input" value="Continue">-->
+                                        <!--</form>-->
+                                        <!--<a href="#">Forgot your password?</a>-->
+                                        <!--<a href="#">Register</a>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <a class="login" href="">Sign in <span>or Create account</span></a>
+                                <a href="" class="cart" id="cart"><img src="img/bag.png" srcset="img/bag@2x.png 2x, img/bag@3x.png 3x" alt="shopping-bar"></a>
+                                <button class="toggle-mnu">
+										<span class="sandwich">
+											<span class="sw-topper"></span>
+											<span class="sw-bottom"></span>
+											<span class="sw-footer"></span>
+										</span>
+                                    <span class="sandwich-descr">Menu</span>
+                                </button>
+                                <nav class="top-mnu">
+                                    <ul>
+                                        <li><a href="#">Catalog</a></li>
+                                        <li><a href="#">Why It's special</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Terms &amp; Conditions</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                    <a class="login" href="">Sign in or Create account</a>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-lg-pull-7 col-md-4 col-md-pul-8 col-sm-4 col-sm-pull-8 col-xs-8">
+                            <a href="/"><img class="logo" src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x"></a>
+                        </div>
+                        <div class="hidden-lg hidden-md hidden-sm col-xs-2">
+                            <a href="" class="cart" id="cart"><img src="img/bag.png" srcset="img/bag@2x.png 2x, img/bag@3x.png 3x" alt="shopping-bar"></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="main register">
+                <div class="container myOrders">
+                    <div class="row">
+                        <div class="col-lg-offset-1 col-lg-3 col-md-3 col-sm-4 hidden-xs">
+                            <div class="contact-info-label">
+                                <a href="#">MY ORDERS</a>
+                                <a href="#" class="active-link">CONTACT INFORMATION</a>
+                                <a href="#">SING OUT</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12">
+                            <div class="row">
+                                <div class="orders-box">
+                                    <div class="small-device-show">
+                                        <a href="#">My orders</a>
+                                        <a href="#" class="active-link">Contact Information</a>
+                                        <a href="#">Payment</a>
+                                        <a href="#">Sing Out</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-wrap">
+                                <h1>My Orders</h1>
+                            </div>
+                            <div class="table main-table">
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <div class="table">
+                                            <div class="table-row">
+                                                <div class="table-cell date">
+                                                    <span>26.07.2016</span>
+                                                </div>
+                                                <div class="table-cell order-number">
+                                                    <span>Order Number:<a href="#" class="order-number-text"> 2607Y232916832</a></span>
+                                                </div>
+                                                <div class="table-cell order-status">
+                                                    <span>Order Status:<a href="#"> Sent</a></span>
+                                                </div>
+                                                <div class="table-cell price">
+                                                    <span>$ 5 130</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-row padding-bottom">
+                                    <div class="table-cell">
+                                        <div class="table">
+                                            <div class="table-row">
+                                                <div class="table-cell">
+                                                    <img src="img/products/ring-img.png" alt="#">
+                                                    <img src="img/products/earrings-img.png" alt="#">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="table-cell border-top">
+                                        <div class="table">
+                                            <div class="table-row">
+                                                <div class="table-cell date">
+                                                    <span>26.07.2016</span>
+                                                </div>
+                                                <div class="table-cell order-number">
+                                                    <span>Order Number:<a href="#" class="order-number-text"> 2607Y232916832</a></span>
+                                                </div>
+                                                <div class="table-cell order-status">
+                                                    <span>Order Status:<a href="#"> Sent</a></span>
+                                                </div>
+                                                <div class="table-cell price">
+                                                    <span>$ 5 130</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <div class="table">
+                                            <div class="table-row">
+                                                <div class="table-cell">
+                                                    <img src="img/products/ring-img.png" alt="#">
+                                                    <img src="img/products/earrings-img.png" alt="#">
+                                                    <img src="img/products/ring-img.png" alt="#">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 hidden-sm col-xs-9">
+                    <p>Cosmic Origin 2017</p>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-3">
+                    <nav class="footer-menu">
+                        <ul>
+                            <li><a href="#">Why It's special</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                        <button class="toggle-mnu">Menu</button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</section>
+<link rel="stylesheet" href="css/main.min.css">
+<script src="js/scripts.min.js"></script>
+<script>
+    $(window).on('load', function () {
+        var $preloader = $('.page-preloader'),
+            $spinner   = $preloader.find('.spinner');
+        $spinner.fadeOut();
+        $preloader.delay(350).fadeOut('slow');
+        $('#ring').addClass('animated fadeInLeft');
+        $('#header-text').addClass('animated fadeInRight');
+        $('#title').addClass('animated fadeIn');
+    });
+</script>
+
+</body>
+</html>

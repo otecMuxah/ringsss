@@ -1,0 +1,151 @@
+.table
+  width: 100%
+  display: table
+.table-row
+  display: table-row
+  height: 140px
+.table-cell
+  display: table-cell
+  vertical-align: middle
+  border-bottom: 1px solid rgba(212, 212, 212, .1)
+.right-col
+  float: right
+.left-col
+  float: left
+.shoppingBag
+  .table
+    margin-bottom: 5px
+  .header-borders:before,
+  .header-borders:after
+    width: calc(50% - 150px)
+    background-color: rgba(212, 212, 212, 1)
+  .payment-methods
+    p
+      font-family: 'roboto-reg'
+  img
+    max-height: 80px
+    max-width: 80px
+  .product-code
+    font-size: 16px
+    color: #a3a3a3
+  .product-name
+    padding: 0
+    font-size: 16px
+    color: #fff
+    opacity: 1
+    font-weight: 600
+    text-align: left
+  .price
+    font-family: "roboto-reg"
+    font-size: 14px
+    font-weight: bold
+    color: #fff
+    letter-spacing: 0
+  .select.dark-input
+    color: #fff
+  .select-cell
+    width: 280px
+    .ui-selectmenu-button:not(:first-child)
+      margin-left: 10px
+  .button-wrap
+    text-align: right
+    clear: both
+  .revers-triangle + span .ui-icon:after
+    transform: rotate(135deg)
+    top: 0px
+  .revers-triangle + .ui-selectmenu-button-open .ui-icon:after
+      transform: rotate(-45deg)
+      top: 5px
+  .small-input
+    margin: 0
+.total-sum
+  margin: 10px 50px 30px 10px
+  width: 290px
+  .row div:last-child
+      text-align: right
+.total-sum
+  span
+    font-family: 'roboto-light'
+    font-size: 14px
+    font-weight: 300
+    color: #a3a3a3
+  .accent-text
+    color: #9b9b9b
+  .white-text
+    color: #fff
+  .bold-text
+    font-family: roboto-bold
+@media only screen and (max-width : 1050px)
+  .main.shoppingBag
+    padding-top: 0
+@media only screen and (max-width : 900px)
+  .shoppingBag
+    h1
+      font-size: 22px
+    .header-borders:before,
+    .header-borders:after
+      width: calc(50% - 70px)
+@media only screen and (max-width : 710px)
+  .shoppingBag
+    .table-row
+      position: relative
+      display: block
+      height: auto
+      margin-top: 65px
+      padding: 20px 0
+      border-bottom: 1px solid rgba(212, 212, 212, .1)
+    .table-cell
+      display: block
+      border: none
+      text-align: center
+    img
+      max-height: 180px
+      max-width: 180px
+    .product-name
+      text-align: center
+    .select-cell
+      width: auto
+      padding: 20px 0
+    .del-img
+      display: inline-block
+      position: absolute
+      top: -40px
+      right: 20px
+    .header-borders
+      font-size: 18px
+    .product-name-wrap
+      position: absolute
+      top: -45px
+      left: 50%
+      transform: translateX(-50%)
+    .bag-img-wrap
+      height: 200px
+      position: relative
+      >img
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+    .payment-methods
+      display: none
+    .small-input
+      width: 100%
+      margin: 20px 0
+  .total-sum
+    margin: 0
+    width: 100%
+@media only screen and (max-width : 420px)
+  .shoppingBag
+    .header-wrap
+      margin-left: -15px
+      margin-right: -15px
+  .header-wrap
+    background-color: #0f1526
+    h1
+      margin: 0
+      padding: 11px 0 11px 15px
+      text-align: left
+  .small-input
+    font-family: roboto-reg
+    font-size: 14px
+    font-weight: 500

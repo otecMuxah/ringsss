@@ -1,0 +1,74 @@
+.contactInfo
+  h1
+    margin-top: 10px
+    padding-left: 15px
+    font-size: 28px
+    font-weight: 500
+    text-align: left
+  input[type=radio]+label
+    margin-left: 30px
+  .checkbox-wrap
+    margin: 10px 0
+  .small-input
+    margin: 25px 0
+  form
+    margin-right: 30px
+.contact-info-label
+  height: 155px
+  width: 210px
+  padding: 10px 14px
+  background-color: rgba(255, 255, 255, .05)
+  a
+    display: inline-block
+    margin: 7px 0
+    padding: 0
+    opacity: 0.4
+    color: #fff
+    border-top: 3px solid transparent
+    border-bottom: 3px solid transparent
+    &:hover
+      opacity: 1
+      text-decoration: none
+      border-bottom: 3px solid rgba(255,255,255,.15)
+  .active-link
+    opacity: 1
+    border-bottom: 3px solid rgba(255,255,255,.15)
+    font-weight: 500
+.myOrders
+  .price
+    span
+      font-size: 16px
+@media only screen and (max-width : 420px)
+  .contactInfo
+    .header-wrap
+      margin-bottom: 15px
+      padding: 11px 0 11px 15px
+      h1
+        padding: 0
+    .small-input
+      width: 100%
+    .small-device-show
+      background-color: #000
+      a
+        display: inline-block
+        padding: 0 5px 10px 5px
+        font-size: 11px
+        color: #fff
+        opacity: 0.4
+        border: 2px solid transparent
+        &:hover,
+        &:active,
+        &:visited
+          opacity: 1
+          text-decoration: none
+          border-bottom: 2px solid rgba(255,255,255,.15)
+        &:first-child
+          padding-left: 15px
+      .active-link
+        opacity: 1
+        border-bottom: 2px solid rgba(255,255,255,.15)
+        font-weight: 500
+    input[type=radio]+label
+      margin-left: 20px
+    input[type=checkbox]+label
+      margin-left: 15px

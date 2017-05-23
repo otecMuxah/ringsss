@@ -1,0 +1,111 @@
+.myOrders
+  h1
+    margin-bottom: 0
+    font-size: 28px
+    text-align: left
+    font-weight: 500
+  img
+    display: inline-block
+    margin-right: 30px
+    margin-bottom: 30px
+    max-height: 80px
+    max-width: 80px
+  span
+    color: #a3a3a3
+    opacity: 0.6
+  .price
+    letter-spacing: 0
+    font-weight: 500
+    span
+      color: #fff
+  a
+    color: #fff
+  .order-number-text
+    text-decoration: underline
+  .table-row
+    height: auto
+  .table-cell
+    padding: 10px 0 0 0
+    border: none
+  .border-top
+    border-top: 1px solid rgba(212, 212, 212, .1)
+  .padding-top
+    .table-cell
+      padding: 15px 0 0 0
+  .date
+    width: 22%
+  .order-number
+    width: 43%
+  .order-status
+    width: 26%
+  .price
+    width: 9%
+  .contact-info-label
+    margin-left: 20px
+
+@media only screen and (max-width: 991px)
+  .myOrders
+    .date
+      width: 17%
+
+@media only screen and (max-width: 560px)
+  .myOrders
+    h1
+      margin-top: 0
+    .table
+      display: block
+      width: 100%
+    .table-row
+      display: block
+    .table-cell
+      display: block
+      border: none
+    .date, .order-number, .order-status, .price
+      width: 100%
+
+@media only screen and (max-width: 420px)
+  .myOrders
+    .orders-box
+      height: 35px
+      background-color: #000
+    .small-device-show
+      position: absolute
+      a
+        display: inline-block
+        padding: 0 0 9px 0
+        font-size: 13px
+        color: #fff
+        opacity: 0.4
+        border: 2px solid transparent
+        &:hover,
+        &:active,
+        &:visited
+          opacity: 1
+          text-decoration: none
+          border-bottom: 2px solid rgba(255, 255, 255, .15)
+        &:first-child
+          padding-left: 15px
+      .active-link
+        opacity: 1
+        border-bottom: 2px solid rgba(255, 255, 255, .15)
+        font-weight: 500
+    img
+      max-height: 60px
+      max-width: 60px
+      margin: 30px 30px 30px 0
+    .header-wrap
+      position: absolute
+      top: 35px
+      left: -15px
+      right: 0
+      h1
+        padding: 0
+        padding-left: 15px
+    .main-table
+      margin-top: 60px
+    .table-cell
+      padding: 0
+    .border-top
+      border-top: 1px solid rgba(212, 212, 212, .1)
+      padding-top: 20px
+

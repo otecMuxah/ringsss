@@ -1,0 +1,86 @@
+.Inner
+  h1
+    margin: 0 0 25px 0
+    padding-left: 30px
+    position: relative
+    font-size: 28px
+    font-weight: 500
+    &:before
+      content: ''
+      position: absolute
+      top: 50%
+      left: 0
+      height: 1px
+      width: 18px
+      background-color: #fff
+    &:after
+      content: ''
+      position: absolute
+      top: 12px
+      left: 0
+      height: 11px
+      width: 11px
+      transform: rotate(45deg)
+      border-bottom: 1px solid #fff
+      border-left: 1px solid #fff
+  .inner-info
+    span
+      display: block
+  .img-wrapper
+    margin-top: 30px
+  .left-col, .center-col, .right-col
+    >span
+      display: block
+      font-size: 15px
+      line-height: 1.53
+  .left-col
+    width: 35%
+  .center-col
+    width: 32%
+  .right-col
+    width: 32%
+  .left-col, .center-col
+    float: left
+  .right-col
+    float: right
+  h6
+    margin: 0
+    font-size: 20px
+    font-weight: 500
+    color: #fff
+@media only screen and (max-width : 991px)
+  .Inner
+    h1
+      font-size: 22px
+      &:after
+        content: ''
+        position: absolute
+        top: 8px
+        left: 0
+        height: 11px
+        width: 11px
+        transform: rotate(45deg)
+        border-bottom: 1px solid #fff
+        border-left: 1px solid #fff
+@media only screen and (max-width : 485px)
+  .Inner
+    .left-col, .center-col, .right-col
+      width: 100%
+@media only screen and (max-width : 420px)
+  .Inner
+    .inner-info
+      margin-top: 70px
+    .header-wrap
+      h1
+        padding-left: 50px
+        &:before
+          left: 20px
+        &:after
+          top: 6px
+          left: 20px
+    img
+      margin: 0 30px 20px 0
+    .img-wrapper
+      margin: 20px 0 0 0
+    h6 ~ span:last-child
+      margin-bottom: 15px

@@ -1,0 +1,29 @@
+.bright-background-img
+  background-image: url('../img/why-its-special-bg.jpg')
+  -webkit-background-size: cover
+  background-size: cover
+.special
+  h1
+    margin: 30px 0
+    margin-top: 30%
+  p
+    max-width: 780px
+    font-size: 15px
+    text-align: left
+    color: #9c9c9c
+@media only screen and (max-width : 900px)
+  .special
+    p
+      max-width: 620px
+@media only screen and (max-width : 420px)
+  .bright-background-img
+    background-color: black
+    background-image: url('../img/why-its-special-bg-mob.png')
+    -webkit-background-size: 100% auto
+    background-size: 100% auto
+    background-repeat: no-repeat
+    background-position: 0 200px
+  .special
+    h1
+      margin: 35px 0 240px 0
+      font-size: 18px

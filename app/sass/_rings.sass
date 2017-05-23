@@ -1,0 +1,129 @@
+header
+	background-color: #000
+.main
+	padding: 30px 0
+	h1
+		margin: 20px auto
+		text-align: center
+		font-size: 44px
+		line-height: 1.2
+		font-weight: 300
+		color: #fff
+	p
+		margin: 0 auto
+		max-width: 745px	
+		font-size: 15px
+		line-height: 1.5
+		text-align: center
+		color: #fff
+		opacity: 0.6
+	img
+		display: block
+		margin-left: auto
+		margin-right: auto
+	.item
+		margin: 40px 0
+	.margin-bottom
+		margin-bottom: 50px
+.ring-info 
+	margin: 60px 0
+	p
+		max-width: 410px
+	.button-box
+		display: block
+		text-align: center
+		a
+			font-size: 14px
+			font-weight: 300
+			line-height: 1.6
+			letter-spacing: 6px
+			color: #ffffff
+			opacity: 0.6
+			-webkit-font-smoothing: antialiased
+.item
+	position: relative
+	.overlay
+		position: absolute
+		left: 0
+		top: -50px
+		right: 0
+		bottom: -50px
+		opacity: 0
+		transition: opacity  0.6s
+		padding: 60px 0
+		text-align: center
+		background-color: rgba(15, 19, 33, 0.93)
+		color: #fff
+		z-index: 10
+		h4
+			margin: 10px auto
+			max-width: 230px
+			font-size: 28px
+			line-height: 1.2
+			text-decoration: underline
+			font-weight: 500
+			text-align: center
+		span
+			display: block
+			text-align: center
+			font-size: 16px
+			line-height: 2
+			opacity: 0.6
+.item:hover
+	.overlay
+		opacity: 1
+		transition: opacity  1.2s
+		.price
+			font-size: 14px
+.price
+	margin-top: 20px
+	font-size: 14px
+	line-height: 1.64
+	letter-spacing: 4px
+	color: #ffffff
+.overlay
+	span:first-child
+		opacity: 1
+		font-family: "Roboto"
+		font-size: 12px
+		font-weight: 100
+		color: #a3a3a3
+	span.price
+		opacity: 1
+		font-family: "Roboto"
+		font-size: 14px
+.footer
+	position: static
+.product-name
+	display: block
+	padding: 20px 0
+	font-size: 13px
+	text-align: center
+	color: #fff
+	opacity: 0.6
+@media only screen and (max-width : 1199px)
+	.ring-info
+		margin: 0
+		margin-top: 60px
+@media only screen and (max-width : 420px)
+	.main.rings
+		padding: 0
+	.main img
+		max-height: 100px
+		max-width: 100px
+	.item .overlay
+		top: -20px
+		bottom: 0
+		padding: 30px 0
+		h4
+			font-size: 20px
+	.price
+		margin-top: 0
+	.rings .header-wrap
+		padding: 11px 0
+		background-color: #0f1526
+	.main.rings h1
+		margin: 0
+		text-align: left
+		font-size: 18px
+		padding-left: 15px
