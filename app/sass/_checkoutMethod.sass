@@ -27,15 +27,9 @@
 
 .checkout-method
   .checkout-item
-
-    white-space: nowrap
-  .checkout-item-wrap
-    display: flex
-    justify-content: space-between
-    margin-left: -30px
+    margin-right: 53px
 .checkout-item.small
-
-
+  margin-right: 50px
 .checkout-header-small
   display: none
 @media only screen and (max-width : 1199px)
@@ -59,16 +53,12 @@
     .checkbox-wrap-box
       padding-left: 60px
   .checkout-item
-    //margin-right: 33px
-  .checkout-item-wrap
-    margin-left: 0 !important
+    margin-right: 33px
 @media only screen and (max-width : 750px)
   .checkoutMethod
     .checkbox-wrap-box
       padding-left: 0
 @media only screen and (max-width : 595px)
-  .checkout-item strong
-    display: none
   .checkout-item.small:last-of-type
     margin-right: 0
   .checkout-item span:last-child
@@ -77,17 +67,12 @@
     margin-right: 20px
   .checkout-item:not(:first-child)
     span:last-child:before
-      left: -34px
+      left: -14px
     span:last-child:after
-      left: -33px
+      left: -13px
 @media only screen and (max-width : 524px)
   .checkout-item span:last-child
     font-size: 12px
-  .checkout-item:not(:first-child)
-    span:last-child:before
-      left: -24px
-    span:last-child:after
-      left: -23px
 @media only screen and (max-width : 420px)
   .checkout-item-wrap
     .checkout-item.small
